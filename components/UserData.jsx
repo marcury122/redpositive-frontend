@@ -44,9 +44,10 @@ export const UserData = ({ data }) => {
 
   return (
     <>
-      <button onClick={handleSendMail} className="bg-white">
+      {/* <button onClick={handleSendMail} className="bg-white">
         Send Email
-      </button>
+      </button> */}
+      <button  onClick={handleSendMail}  type="button" class="my-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Send Email</button>
 
       {/* <table className="border-collapse w-full">
         <thead>
@@ -92,7 +93,7 @@ export const UserData = ({ data }) => {
         <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
           <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" className="p-4">
+              {/* <th scope="col" className="p-4">
                 <div className="flex items-center">
                   <input
                     id="checkbox-all-search"
@@ -103,6 +104,9 @@ export const UserData = ({ data }) => {
                     checkbox
                   </label>
                 </div>
+              </th> */}
+              <th scope="col" className="px-6 py-3">
+                Select Row
               </th>
               <th scope="col" className="px-6 py-3">
                 ID
